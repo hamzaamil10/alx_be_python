@@ -7,7 +7,7 @@ class Book:
         return f"Book: {self.title} by {self.author}"
 
     
-class EBook (Book):
+class EBook(Book):
     def __init__(self, title, author, file_size):
         super().__init__(title, author)
         self.file_size = int(file_size)
